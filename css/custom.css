@@ -243,6 +243,22 @@ div.pad-top{
 	padding-top: 100px;
 }
 
+.vid-title {
+	text-align: left;
+}
+.cent-marg{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Video Pages*/
+.vid{
+	padding-top: 50px;
+}
+iframe, .vid-width{
+	width: 1080px;
+	height: 607px;
+}
 
 
 /* Extra large Devices, Wide Screens */
@@ -297,6 +313,10 @@ div.pad-top{
 	.circle.circle4 {
 		width: 450px;
 		height: 450px;
+	}
+	iframe, .vid-width{
+		width: 690px;
+		height: 388px;
 	}
 }
 /* Medium Devices, Desktops */
@@ -406,10 +426,20 @@ div.pad-top{
 	.circle4 {
 	margin-top: 0px;
 	}
+	.vid{
+		padding-top: 20px;
+	}
+	iframe, .vid-width{
+		width: 432px;
+		height: 243px;
+	}
 }
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-
+	iframe, .vid-width{
+		width: 320px;
+		height: 180px;
+	}
 }
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
