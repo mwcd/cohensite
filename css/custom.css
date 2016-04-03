@@ -1,19 +1,7 @@
 /*FONT CSS*/
 .open-sans{
 }
-@font-face{
-	font-family: "Aileron";
-	font-weight: normal;
-	src: url("../fonts/Aileron-Regular.otf") format("opentype");
-}
-@font-face{
-	font-family: "Aileron";
-	font-weight: bold;
-	src: url("../fonts/Aileron-Bold.otf") format("opentype");
-}
-.aileron, .aileron > div > div > div {
-	font-family: "Aileron";
-}
+
 
 
 /*NAVBAR CSS*/
@@ -65,7 +53,6 @@
 body{
     background-color: #E8E7E2; 
 }
-
 .image-bg-fluid-height,
 .image-bg-fixed-height {
     text-align: center;
@@ -74,13 +61,14 @@ body{
     background-size: cover;
     -o-background-size: cover;
 }
-
-
 .image-bg-fixed-height {
 	background: url('../img/jane.png') no-repeat center center scroll;
 	height: 800px;
 }
-
+.page1-title {
+	padding-top: 70px;
+	color: #EEEEEE;
+}
 .circle1 {
 	color: white;
 	display: block;
@@ -203,6 +191,11 @@ section.page3-bot {
 }
 .page3-text{
 	font-size: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+    background-color: #E8E7E2;
 }
 .bold {
 	font-weight: bold;
@@ -352,6 +345,9 @@ iframe, .vid-width{
 	.push-left {
 		margin-right: 50px;
 	}
+	.page1-title {
+		padding-top: 120px;
+	}
 	.circle {
 	width: 400px;
 	height: 400px;
@@ -407,6 +403,13 @@ iframe, .vid-width{
 	.pad-right {
 		padding-right: 0px;
 	}
+	.page1-title {
+		padding-top: 105px;
+	}
+	.break:after {
+		content:"\a";
+    	white-space: pre;
+	}
 	.circle {
 		width: 250px;
 		height: 250px;
@@ -422,7 +425,7 @@ iframe, .vid-width{
 		line-height: 36px;
 	}
 	.image-bg-fixed-height {
-		height: 575px;
+		height: 500px;
 	}
 	.circle2 {
     	margin-top: -200px;
