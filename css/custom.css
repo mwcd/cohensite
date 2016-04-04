@@ -63,7 +63,7 @@ body{
 }
 .image-bg-fixed-height {
 	background: url('../img/jane.png') no-repeat center center scroll;
-	height: 800px;
+	height: 1000px;
 }
 .page1-title {
 	padding-top: 70px;
@@ -218,13 +218,13 @@ section.page3-bot {
     border-radius: 50%;
 }
 .bubble1 {
-	background-color: #E8E7E2;
+	background-color:#CC0000;
 }
 .bubble2 {
 	background-color: #7D7E7E;
 }
 .bubble3 {
-	background-color: #CC0000;
+	background-color: #E8E7E2;
 }
 .bubble4 {
 	background-color: #FFB94F;
@@ -281,7 +281,7 @@ iframe, .vid-width{
 /* Extra large Devices, Wide Screens */
 @media only screen and (max-width : 1600px) {
 	.image-bg-fixed-height {
-		height: 645px;
+		height: 750px;
 	}
 	.circle1 {
 		width: 450px;
@@ -425,7 +425,7 @@ iframe, .vid-width{
 		line-height: 36px;
 	}
 	.image-bg-fixed-height {
-		height: 500px;
+		height: 600px;
 	}
 	.circle2 {
     	margin-top: -200px;
@@ -462,6 +462,9 @@ iframe, .vid-width{
 	}
 	p.page1-text {
 		font-size: 12px;
+	}
+	.col-md-4.bubble-text.text-center.center-block.back-circ.bubble1 {
+		margin-top: 20px;
 	}
 }
 /* Extra Small Devices, Phones */ 
