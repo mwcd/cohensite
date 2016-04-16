@@ -278,6 +278,7 @@ iframe, .vid-width{
 }
 
 
+
 /* Extra large Devices, Wide Screens */
 @media only screen and (max-width : 1600px) {
 	.image-bg-fixed-height {
@@ -465,6 +466,9 @@ iframe, .vid-width{
 	}
 	.col-md-4.bubble-text.text-center.center-block.back-circ.bubble1 {
 		margin-top: 20px;
+	}
+	.col-xs-6 > h3 {
+		font-size: 20px;
 	}
 }
 /* Extra Small Devices, Phones */ 
