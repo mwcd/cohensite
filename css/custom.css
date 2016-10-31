@@ -62,7 +62,7 @@ body{
     -o-background-size: cover;
 }
 .image-bg-fixed-height {
-	background: url('../img/jane.png') no-repeat center center scroll;
+	background: url('../img/jane.jpg') no-repeat center center scroll;
 	height: 1000px;
 }
 .page1-title {
